@@ -13,7 +13,7 @@ function Landing(){
                 <img src="/background.png" alt="Insane push up record from this man's dedication" className={styles.background} />
                 <div className={styles.textContainer}>
                     <h1 className={styles.title}>SpoonFedStudy</h1>
-                    <p>Ex harvard doctor. Teaching you how to become a better you.</p>
+                    <p>Ex-harvard doctor and content creator with the purpose of teaching you how to become a better you.</p>
                     <p>(While still enjoying life responsibly)</p>
                 </div>
                 <div className={styles.LandingCardWrapperWrapper}>

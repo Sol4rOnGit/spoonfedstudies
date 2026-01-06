@@ -2,7 +2,8 @@
     box-sizing: border-box;
 
     height: 100vh;
-    padding-top: 5vh;
+    width: 100vw;
+    padding-top: 13vh;
 
     display: flex;
     flex-direction: column;
@@ -65,6 +66,27 @@
     flex-wrap: wrap;
     flex-direction: row;
     gap: 1rem;
+}
 
+@media (max-width: 767px) {
+    .hero{
+        padding-top: 15vh;
+        height: fit-content;
+    }
 
+    .hero p{
+        text-align: center;
+    }
+
+    .background{
+        width: 95vw;
+    }
+
+    .LandingCardWrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        padding-bottom: 20vh;
+    }
 }

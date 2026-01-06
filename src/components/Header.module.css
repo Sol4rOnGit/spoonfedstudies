@@ -49,3 +49,9 @@
 .element:hover{
     font-size: larger;
 }
+
+@media (max-width: 767px) {
+    .logo{
+        width: 10vw;
+    }
+}
