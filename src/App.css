@@ -1,6 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap');
+
 body{
-    width: 100dvw;
-    height: 100dvh;
+    font-family: "Rubik", Helvetica, Arial, sans-serif;
+    position: fixed;
+
+    width: 99vw;
+    height: 100vh;
 
     background-color: #242424;
+
+    color: white;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:visited{
+    color: white;
+}
+
+a:hover{
+    color: bisque;
 }

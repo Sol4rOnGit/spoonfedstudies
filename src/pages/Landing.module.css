@@ -1,0 +1,70 @@
+.hero{
+    box-sizing: border-box;
+
+    height: 100vh;
+    padding-top: 5vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    /*background-color: rebeccapurple;*/
+}
+
+.background{
+    width: 700px;
+    border-radius: 2.5rem;
+    box-shadow: 0.5rem 0.5rem 0.5rem black;
+    transition: transform 0.3s ease-in-out;
+}
+
+.background:hover{
+    transform: translateY(-2px); 
+}
+
+.title{
+    margin-top: 6vh;
+    color: white;
+    text-shadow: 0.1rem 0.1rem 0.1rem black;
+}
+
+.textContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+    margin: 0;
+}
+
+.textContainer p{
+    margin: 0;
+}
+
+.LandingCardWrapperWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.2rem;
+
+    margin-top: 3vh;
+}
+
+.LandingCardWrapperWrapper p{
+    font-size: large;
+    margin: 0;
+}
+
+.LandingCardWrapper{
+    box-sizing: border-box;
+    padding: 1.5rem;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 1rem;
+
+
+}

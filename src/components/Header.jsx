@@ -9,9 +9,9 @@ function Header(){
                 </a>
             </div>
             <ul className={styles.rightNav}>
-                <li><a href="https://spoonfedstudy.com">Home</a></li>
-                <li><a href="https://spoonfedstudy.com/collections/all">Catalog</a></li>
-                <li><a href="https://spoonfedstudy.com/pages/contact">Contact</a></li>
+                <li className={styles.element}><a href="/">Home</a></li>
+                <li className={styles.element}><a href="https://spoonfedstudy.com/collections/all">Catalog</a></li>
+                <li className={styles.element}><a href="https://spoonfedstudy.com/pages/contact">Contact</a></li>
             </ul>
         </nav>
     );

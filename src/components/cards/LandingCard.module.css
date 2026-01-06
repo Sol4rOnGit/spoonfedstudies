@@ -1,0 +1,23 @@
+.cardWrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+    border: 0.15rem solid wheat;
+    border-radius: 20px;
+
+    padding: 1.5rem;
+
+    transition: transform 0.2s ease-in-out;
+}
+
+.cardWrapper img{
+    width: 4rem;
+    border-radius: 1.5rem;
+}
+
+.cardWrapper:hover{
+    transform: scale(1.2), translateY(-2px);
+}

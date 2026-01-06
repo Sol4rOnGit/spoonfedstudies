@@ -1,19 +1,51 @@
 .header{
+    box-sizing: border-box;
+
     position: fixed;
     top: 0;
     left: 0;
     margin: 0;
 
-    background-color: red;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    padding-left: 10vw;
+    padding-right: 10vw;
+
+    background-color: #1a1a1a;
     width: 100dvw;
 
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .logo{
-    width: 50px;
+    width: 75px;
     border-radius: 15px;
+    transition: width 0.2s;
+}
+
+.logo:hover{
+    width: 80px;
+}
+
+.rightNav{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 3vw;
+    font-size: large;
+    font-style: bold;
+    color: white;
+}
+
+.element{
+    font-size: large;
+    transition: font-size 0.2s;
+}
+
+.element:hover{
+    font-size: larger;
 }
